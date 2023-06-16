@@ -9,10 +9,14 @@ public class MainViewController {
     public Text lbGreething;
     public TextField txtName;
     public Button btnOk;
+    public Button btnCal;
 
     public void btnOkOnClicked(MouseEvent mouseEvent) {
         String text = txtName.getText();
         lbGreething.setText("Good Morning "+text+" !...");
 
+    }
+
+    public void btnCalOnAction(MouseEvent mouseEvent) {
     }
 }
