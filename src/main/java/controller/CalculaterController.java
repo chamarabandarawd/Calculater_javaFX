@@ -28,7 +28,9 @@ public class CalculaterController {
 
     @FXML
     void btnPlusOnAction(ActionEvent event) {
-
+        double num1 = Double.parseDouble(txtFristNum.getText());
+        double num2 = Double.parseDouble(txtSecondNum.getText());
+        txtResult.setText((num1+num2)+"");
     }
 
     @FXML

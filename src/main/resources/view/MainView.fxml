@@ -15,6 +15,6 @@
       </Text>
       <TextField fx:id="txtName" layoutX="19.0" layoutY="82.0" prefHeight="25.0" prefWidth="215.0" promptText="Enter Your Name Here..." />
       <Button fx:id="btnOk" layoutX="328.0" layoutY="82.0" mnemonicParsing="false" onMouseClicked="#btnOkOnClicked" prefHeight="25.0" prefWidth="55.0" text="Ok" />
-      <Button fx:id="btnCal" layoutX="249.0" layoutY="82.0" mnemonicParsing="false" onMouseClicked="#btnCalOnAction" text="Calculater" />
+      <Button fx:id="btnCal" layoutX="249.0" layoutY="82.0" mnemonicParsing="false" onAction="#btnCalOnAction" text="Calculater" />
    </children>
 </AnchorPane>
